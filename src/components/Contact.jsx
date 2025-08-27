@@ -54,7 +54,7 @@ export default function Contact() {
           </motion.a>
           
           <motion.a 
-            href="mailto:contact@example.com"
+            href="mailto:murmehina45@gmail.com"
             className="bg-white/10 p-5 rounded-2xl backdrop-blur-sm border border-white/10 hover:bg-white/20 transition-all duration-300 group"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
