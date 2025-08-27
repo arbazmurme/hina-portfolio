@@ -63,12 +63,25 @@ export default function Navbar() {
               Contact
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-            <Link
-              href="#contact"
+            <a
+              href="/Hina_Murme_Resume1.pdf"
+              target="_blank"
               className="px-4 py-2 bg-indigo-600 text-white rounded-full shadow-md hover:bg-indigo-700 transition-all duration-300 transform hover:-translate-y-0.5"
             >
-              Get in Touch
-            </Link>
+              Resume Download{" "}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 inline ml-2"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.293a1 1 0 011.414 0L10 8.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </a>
           </div>
 
           {/* Mobile menu button */}
