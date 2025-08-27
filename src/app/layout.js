@@ -8,7 +8,7 @@ export const metadata = {
     title: "Hina Murme | Portfolio",
     description:
       "Portfolio of Python Backend Developer, Data Analyst & Frontend Developer",
-    url: "https://hina-portfolio.vercel.app",
+    url: "hina-portfolio-eight.vercel.app",
     siteName: "Hina Portfolio",
     images: [
       {
