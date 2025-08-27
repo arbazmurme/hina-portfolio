@@ -47,11 +47,13 @@ export default function Hero() {
 
           {/* CTA Buttons */}
           <div className="flex  gap-4 mb-12">
-            <Link
-              href="#projects"
+            <a
+              href="/Hina_Murme_Resume1.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-4 bg-indigo-600 text-white rounded-full shadow-lg hover:bg-indigo-700 transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2"
             >
-              <span>View My Work</span>
+              <span>Download Resume</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -64,7 +66,7 @@ export default function Hero() {
                   clipRule="evenodd"
                 />
               </svg>
-            </Link>
+            </a>
 
             <Link
               href="#contact"
